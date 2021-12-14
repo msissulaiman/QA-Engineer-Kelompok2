@@ -51,5 +51,6 @@ Modul Article
 7. Update Comment, masukan URL https://alodokter-k2.herokuapp.com/api/v1/articles/:article_id/comments/:id dengan memilih method PUT, kemudian menambahkan owner pada pada HTTP body --> text --> JSON dan masukkan article id dan comment id pada URL tersebut.
 8. Delete Article, masukkan URL https://alodokter-k2.herokuapp.com/api/v1/articles/:id dengan memilih method DELETE, kemudian masukkan article id pada URL tersebut yang ingin di hapus.
 9. Delete Comment, masukkan URL https://alodokter-k2.herokuapp.com/api/v1/articles/1/comments/:id dengan memilih method DELETE, kemudian masukkan comment id pada URL tersebut yang ingin di hapus. 
-10. Setelah point 1 s/d 5 selesai, maka selanjutnya membuat test case pada masing-masing point 1 s/d 9.
-11. Berikutnya memasukkan akun testrail, langkah selanjutnya TestSuites semua modul article
+10. Get Article by title, masukkan URL https://alodokter-k2.herokuapp.com/api/v1/searcharticles/title dengan memilih method GET --> run, akan menampilkan article sesuai dengan title yang dimasukkan.
+11. Setelah point 1 s/d 5 selesai, maka selanjutnya membuat test case pada masing-masing point 1 s/d 10.
+12. Berikutnya memasukkan akun testrail, langkah selanjutnya TestSuites semua modul article
